@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.1](https://github.com/daief/daisyui-vue/compare/v0.0.1-alpha.3...v0.0.1) (2022-07-20)
+
+
+### Features
+
+* modal add transition ([393d1fa](https://github.com/daief/daisyui-vue/commit/393d1fae7057d67d502f27eb9f6e394a12591a12))
+* support responsive & media query ([69542f8](https://github.com/daief/daisyui-vue/commit/69542f83b349a2555f17e8ecbc6d8b754653c2ad))
+
+
+### Bug Fixes
+
+* fisrt transition ([0a40b81](https://github.com/daief/daisyui-vue/commit/0a40b8179d93d7a0955e67021c10db47321b9e40))
+
 ### [0.0.1-alpha.3](https://github.com/daief/daisyui-vue/compare/v0.0.1-alpha.2...v0.0.1-alpha.3) (2022-04-22)
 
 
