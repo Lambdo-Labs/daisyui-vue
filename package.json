@@ -21,7 +21,7 @@
     "clone": "node scripts/clone.js",
     "release": "standard-version",
     "pre:release": "pnpm run release -- --prerelease=alpha",
-    "postinstall": "rm -rf dist && npm run icons && NODE_ENV=production rollup -c"
+    "postinstall": "tsc --outDir ./build"
   },
   "resolutions": {
     "vue": "3.2.26"
