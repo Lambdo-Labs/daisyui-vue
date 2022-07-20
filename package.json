@@ -1,6 +1,6 @@
 {
   "name": "daisyui-vue",
-  "version": "0.0.1",
+  "version": "0.0.1-alpha.3",
   "author": "daief <defeng_mail@163.com> (https://github.com/daief)",
   "homepage": "https://daief.tech/daisyui-vue",
   "repository": {
@@ -20,7 +20,8 @@
     "icons": "node scripts/buildIcons.js",
     "clone": "node scripts/clone.js",
     "release": "standard-version",
-    "pre:release": "pnpm run release -- --prerelease=alpha"
+    "pre:release": "pnpm run release -- --prerelease=alpha",
+    "postinstall": "npm run clone && npm run build"
   },
   "resolutions": {
     "vue": "3.2.26"
